@@ -5,12 +5,10 @@
     margin-left: 25%;
     margin-right: 25%;
     float: middle;
+    text-align: center;
 
 }
-.instructions {
-    padding: 20px;
-    background-color: aquamarine;
-}
+
 .dinoPic{
     height: 150px;
     width: 150px;
