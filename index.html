@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>CrystalCollector</title>
+</head>
+<body>
+    <div id="head">
+        <h1>CrystalCollector!</h1>
+    </div>
+
+    <div id="instructions">
+    <p>Instructions</p>
+    </div>
+    <div class="numberToMatch">
+            <h2>Number To Get:
+                <span id= "randomNumber"></span>
+            </h2>
+    </div>
+
+    <div id="winOrLoss">
+       <h2 id="winCount">Wins:</h2>
+       <h2 id="lossCount">Losses:</h2>
+    </div>
+
+    <div class="gems">
+		<img src="assets/images/dino-jirf.jpg" class=dinoPic id= "jirf" alt="longneck">
+        <img src="assets/images/rap.jpg" class=dinoPic id= "rap" alt="raptor">
+        <img src="assets/images/fly-dino.jpg" class=dinoPic id= "fly" alt="wings">
+		<img src="assets/images/t-rex.jpg" class=dinoPic id= "rex" alt="t-rex">
+    </div>
+    
+    <div id="score">
+        <h2>Your total score is:
+            <span id="total"></span>
+        </h2>
+    </div>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
